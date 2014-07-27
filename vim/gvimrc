@@ -1,0 +1,12 @@
+
+set lines=77 columns=235
+
+function Fullscreen()
+set columns=235
+endfunction
+command! Fullscreen :call Fullscreen()
+
+function Halfscreen()
+set columns=120
+endfunction
+command! Halfscreen :call Halfscreen()

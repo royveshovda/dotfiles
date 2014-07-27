@@ -10,9 +10,6 @@ set nocompatible
 set number
 set relativenumber
 
-set lines=999 columns=9999
-
-
 " OmniSharp won't work without this setting
 filetype plugin on
 
