@@ -1,0 +1,1 @@
+/Users/royveshovda/bin/dotfiles/vim/gvimrc
