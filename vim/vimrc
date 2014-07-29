@@ -1,13 +1,21 @@
 set nocompatible
 filetype off
 
-" set runtimepath+=~/.vim/bundle/vundle
-" call vundle#rc()
+set runtimepath+=~/.vim/bundle/vundle
+call vundle#rc()
 
-" Bundle 'gmarik/vundle'
+Bundle 'gmarik/vundle'
+Bundle 'nosami/Omnisharp'
+Bundle 'kien/ctrlp.vim'
+Bundle 'scrooloose/nerdtree'
+Bundle 'scrooloose/syntastic'
+Bundle 'tpope/vim-dispatch'
+Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-git'
+Bundle 'jistr/vim-nerdtree-tabs'
+Bundle 'jimenezrick/vimerl'
 
-
-execute pathogen#infect()
+" execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
