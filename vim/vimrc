@@ -96,27 +96,27 @@ Bundle "gmarik/vundle"
 """"""""""""""""""""""""""""""""" MY VUNDLES """""""""""""""""""""""
 
 " C# development
-Bundle 'nosami/Omnisharp'
+Bundle "nosami/Omnisharp"
 
 " Command+T replacement (ctrl+P)
-Bundle 'kien/ctrlp.vim'
+Bundle "kien/ctrlp.vim"
 
 " file navigator gutter
-Bundle 'scrooloose/nerdtree'
+Bundle "scrooloose/nerdtree"
 
 " awesome syntax highlighting
-Bundle 'scrooloose/syntastic'
+Bundle "scrooloose/syntastic"
 
 
-Bundle 'tpope/vim-dispatch'
+Bundle "tpope/vim-dispatch"
 
 " Make Git pervasive in vim ( :Gblame + Glog + many more )
-Bundle 'tpope/vim-fugitive'
+Bundle "tpope/vim-fugitive"
 
 
-Bundle 'tpope/vim-git'
+Bundle "tpope/vim-git"
 
-Bundle 'jistr/vim-nerdtree-tabs'
+Bundle "jistr/vim-nerdtree-tabs"
 
 " Needed for Erlang
 Bundle "jimenezrick/vimerl"
