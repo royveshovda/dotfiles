@@ -1,16 +1,28 @@
+set nocompatible
+filetype off
+
+" set runtimepath+=~/.vim/bundle/vundle
+" call vundle#rc()
+
+" Bundle 'gmarik/vundle'
+
+
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
+
 set hlsearch
 set incsearch
 
-set nocompatible
 
 set number
 set relativenumber
 set ruler
 set laststatus=2
+
+colorscheme vividchalk
+
 " OmniSharp won't work without this setting
 filetype plugin on
 
@@ -106,9 +118,13 @@ nnoremap <leader>th :OmniSharpHighlightTypes<cr>
 "Don't ask to save when changing buffers (i.e. when jumping to a type definition)
 
 
+" ERLANG
+
 " Folding in Erlang
 let g:erlang_folding=1
 nnoremap <silent> <Space> @=(foldlevel('.')?'za':"\<Space>")<CR>
 vnoremap <Space> zf
+
+let erlang_skel_header = {"author": "Roy Veshovda","owner" : "Roy Veshovda"}
 
 set hidden
