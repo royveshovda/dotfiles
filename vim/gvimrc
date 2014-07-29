@@ -12,3 +12,6 @@ endfunction
 command! Halfscreen :call Halfscreen()
 
 set transparency=30
+
+" For MacVim
+set guifont=Monaco:h14

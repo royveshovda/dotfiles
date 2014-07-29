@@ -119,10 +119,38 @@ Bundle 'tpope/vim-git'
 Bundle 'jistr/vim-nerdtree-tabs'
 
 " Needed for Erlang
-Bundle 'jimenezrick/vimerl'
+Bundle "jimenezrick/vimerl"
 
 " Better status line
-Bundle 'bling/vim-airline'
+Bundle "bling/vim-airline"
+
+" Enable Markdown Preview + GitHub flavored markdown
+Bundle "jtratner/vim-flavored-markdown.git"
+Bundle "nelstrom/vim-markdown-preview"
+
+" Open a shell within vim via :ConqueTerm
+Bundle "skwp/vim-conque"
+ 
+" Open up a bash shell quickly in the current window
+map <Leader>s <esc>:ConqueTermSplit bash<cr>
+
+" Autocompletion
+Bundle "Valloric/YouCompleteMe"
+
+" Default settings for vim (will override some of the settings here)
+Bundle "tpope/vim-sensible"
+
+
+" END OF VUNDLE PLUGINS
+""""""""""""""""""""""""""""""""""""""""""""""""
+
+
+" NERDTree Mappins
+" Open Nerd Tree with <Leader>n
+map <Leader>n <esc>:NERDTreeToggle<cr>
+ 
+" Reveal current file in NERDTree with <Leader>r
+map <Leader>r <esc>:NERDTreeFind<cr>
 
 
 
