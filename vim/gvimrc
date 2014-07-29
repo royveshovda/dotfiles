@@ -11,4 +11,4 @@ set columns=120
 endfunction
 command! Halfscreen :call Halfscreen()
 
-set transparency=15
+set transparency=30
