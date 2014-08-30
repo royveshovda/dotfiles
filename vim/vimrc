@@ -205,6 +205,7 @@ autocmd FileType cs nnoremap <F5> :wa!<cr>:OmniSharpBuildAsync<cr>
 
 autocmd FileType cs nnoremap gd :OmniSharpGotoDefinition<cr>
 nnoremap <leader>fi :OmniSharpFindImplementations<cr>
+nnoremap <leader>fd :OmniSharpGotoDefinition<cr>
 nnoremap <leader>ft :OmniSharpFindType<cr>
 nnoremap <leader>fs :OmniSharpFindSymbol<cr>
 nnoremap <leader>fu :OmniSharpFindUsages<cr>
