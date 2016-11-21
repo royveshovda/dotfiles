@@ -105,7 +105,7 @@ Bundle "gmarik/vundle"
 """"""""""""""""""""""""""""""""" MY VUNDLES """""""""""""""""""""""
 
 " C# development
-Bundle "nosami/Omnisharp"
+" Bundle "nosami/Omnisharp"
 
 " Command+T replacement (ctrl+P)
 Bundle "kien/ctrlp.vim"
@@ -145,7 +145,7 @@ Bundle "skwp/vim-conque"
 map <Leader>s <esc>:ConqueTermSplit bash<cr>
 
 " Autocompletion
-Bundle "Valloric/YouCompleteMe"
+" Bundle "Valloric/YouCompleteMe"
 
 " Default settings for vim (will override some of the settings here)
 Bundle "tpope/vim-sensible"
