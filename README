@@ -1,3 +1,11 @@
-Personal dotfiles.
+# Personal dot and .config files.
 
 Feel free to copy or ignore.
+
+## Setup
+
+```bash
+brew install warp
+brew install starship
+brew install fish
+```
